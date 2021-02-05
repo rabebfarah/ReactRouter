@@ -1,5 +1,15 @@
 .App {
   text-align: center;
+  background-image:url('https://image.freepik.com/free-photo/rough-black-brick-wall-texture-background_136930-195.jpg');
+  height:900px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+  }
+.star{
+  width: 300px;
+  height: 500px;
+  background-color: wheat;
 }
 
 .App-logo {
@@ -27,7 +37,21 @@
 .App-link {
   color: #61dafb;
 }
-
+.addmovie {
+  position: fixed;
+  top: 130px;
+  left: 50px;
+}
+.container-movies {
+  background-color: darkgrey !important;
+}
+.footer {
+  position: fixed;
+  margin-top: 150px;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
